@@ -1,0 +1,9 @@
+package com.code.mongoCrud.repository;
+
+import com.code.mongoCrud.collection.Person;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PersonRepository extends MongoRepository<Person, String> {
+}
