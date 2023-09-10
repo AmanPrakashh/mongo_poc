@@ -15,8 +15,9 @@ import java.util.List;
 @Document(collection ="person")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Person {
+
     @Id
-    private Integer personId;
+    private String personId;
     private String firstName;
     private String lastName;
     private Integer age;
